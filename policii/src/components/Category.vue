@@ -33,6 +33,7 @@
     text-align: center;
     padding: 15px;
     position: relative;
+    justify-content: center;
   }
 
   .title {

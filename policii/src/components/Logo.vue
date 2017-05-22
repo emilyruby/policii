@@ -15,6 +15,7 @@ export default {
 
 <style>
   .symbol {
+    display: flex;
     position: relative;
   }
 </style>
