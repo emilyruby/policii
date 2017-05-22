@@ -15,7 +15,7 @@ export default {
   },
   data () {
     return {
-      msg: 'Policii'
+      msg: 'policii'
     }
   }
 }

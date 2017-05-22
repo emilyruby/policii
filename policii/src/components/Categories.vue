@@ -1,13 +1,13 @@
 <template>
   <div class="container">
-    <category title="Environment" image="🌳"></category>
-    <category title="Healthcare" image="🏥"></category>
-    <category title="Education" image="📚"></category>
-    <category title="Defence" image="🏰"></category>
-    <category title="Brexit" image="🇪🇺"></category>
-    <category title="Economy" image="💰"></category>
-    <category title="Social Care" image="🎗️"></category>
-    <category title="Business" image="👔"></category>
+    <category title="environment" image="🌳"></category>
+    <category title="healthcare" image="🏥"></category>
+    <category title="education" image="📚"></category>
+    <category title="defence" image="🏰"></category>
+    <category title="brexit" image="🇪🇺"></category>
+    <category title="economy" image="💰"></category>
+    <category title="social care" image="🎗️"></category>
+    <category title="business" image="👔"></category>
   </div>
 </template>
 
