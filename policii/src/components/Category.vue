@@ -64,10 +64,4 @@
     height: 400px;
     width: 400px;
   }
-
-  a:visited, a:active, a:hover, a:visited {
-    text-decoration: none;
-  }
-
-
 </style>
