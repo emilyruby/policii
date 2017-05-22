@@ -1,9 +1,9 @@
 <template>
   <div class="item" v-on:click="expand">
-    <div class="title">
-      {{title}}
-    </div>
-    <div class="emoji">
+    <div class="title" v-on:click="expand">
+    {{title}}
+  </div>
+    <div class="emoji" v-on:click="do_nothing">
       {{image}}
     </div>
   </div>
@@ -18,7 +18,14 @@
     },
     methods: {
       expand: function (event) {
-        console.log(event)
+        if (event.srcElement.classList.contains('expanded')) {
+          event.srcElement.classList.remove('expanded')
+        } else {
+          event.srcElement.classList.add('expanded')
+        }
+      },
+      do_nothing: function (event) {
+        event.stopPropagation()
       }
     }
   }
@@ -57,4 +64,10 @@
     height: 400px;
     width: 400px;
   }
+
+  a:visited, a:active, a:hover, a:visited {
+    text-decoration: none;
+  }
+
+
 </style>
