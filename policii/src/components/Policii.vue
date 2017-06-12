@@ -1,8 +1,8 @@
 <template>
   <div>
+    <policies></policies>
     <h1 id="title">{{ msg }}</h1>
     <categories></categories>
-    <policies></policies>
   </div>
 </template>
 
