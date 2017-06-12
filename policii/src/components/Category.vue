@@ -17,16 +17,6 @@
       image: {type: String, default: '*'}
     },
     methods: {
-      expand: function (event) {
-        if (event.srcElement.classList.contains('expanded')) {
-          event.srcElement.classList.remove('expanded')
-        } else {
-          event.srcElement.classList.add('expanded')
-        }
-      },
-      do_nothing: function (event) {
-        event.stopPropagation()
-      }
     }
   }
 </script>
@@ -57,11 +47,5 @@
     align-self: center;
     font-size: 90px;
     text-align: center;
-  }
-
-  .expanded {
-    z-index: 1000;
-    height: 400px;
-    width: 400px;
   }
 </style>
