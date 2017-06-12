@@ -26,6 +26,11 @@
     name: 'Policies',
     props: {
       title: {type: String, default: 'Hello'}
+    },
+    data: function () {
+      return {
+        active: false
+      }
     }
   }
 </script>
