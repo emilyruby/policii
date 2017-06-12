@@ -24,8 +24,8 @@
 <style>
   .item {
     display: flex;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     flex-basis: auto;
     text-align: center;
     padding: 15px;
