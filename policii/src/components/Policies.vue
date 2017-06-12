@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 id="title">{{title}}</h1>
+    <h1 id="title">{{$route.params.title}}</h1>
   </div>
 </template>
 

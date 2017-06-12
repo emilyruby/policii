@@ -10,13 +10,15 @@ export default new Router({
     {
       path: '/',
       name: 'Policii',
-      component: Policii
-    },
-    {
-      path: ':title',
-      name: 'Policies',
-      component: Policies,
-      props: true
+      component: Policii,
+      children: [
+        {
+          path: ':title',
+          name: 'Policies',
+          component: Policies,
+          props: true
+        }
+      ]
     }
   ]
 })
