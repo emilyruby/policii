@@ -1,32 +1,23 @@
 <template>
-  <div class="item" v-on:click="expand">
-    <div class="title" v-on:click="expand">
-    {{title}}
-  </div>
-    <div class="emoji" v-on:click="do_nothing">
-      {{image}}
+    <div class="item">
+      <div class="title">
+        {{title}}
+      </div>
+      <div class="emoji">
+        {{image}}
+      </div>
     </div>
-  </div>
 </template>
 
 <script>
   export default {
     name: 'category',
     props: {
-      title: {type: String, default: 'Category'},
+      title: {type: String, default: 'Hello'},
       image: {type: String, default: '*'}
     },
-    methods: {
-      expand: function (event) {
-        if (event.srcElement.classList.contains('expanded')) {
-          event.srcElement.classList.remove('expanded')
-        } else {
-          event.srcElement.classList.add('expanded')
-        }
-      },
-      do_nothing: function (event) {
-        event.stopPropagation()
-      }
+    computed: {
+
     }
   }
 </script>
@@ -34,8 +25,8 @@
 <style>
   .item {
     display: flex;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     flex-basis: auto;
     text-align: center;
     padding: 15px;
@@ -59,9 +50,8 @@
     text-align: center;
   }
 
-  .expanded {
-    z-index: 1000;
-    height: 400px;
-    width: 400px;
+  a {
+    text-decoration: none;
+    color: black;
   }
 </style>
