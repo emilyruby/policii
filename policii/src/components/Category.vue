@@ -1,12 +1,15 @@
 <template>
-  <div class="item" v-on:click="expand">
-    <div class="title" v-on:click="expand">
-    {{title}}
-  </div>
-    <div class="emoji" v-on:click="do_nothing">
-      {{image}}
+  <router-link :to="{
+    name: 'Policies', params: { userId: 123 }}">
+    <div class="item">
+      <div class="title">
+        {{title}}
+      </div>
+      <div class="emoji">
+        {{image}}
+      </div>
     </div>
-  </div>
+  </router-link>
 </template>
 
 <script>
@@ -47,5 +50,10 @@
     align-self: center;
     font-size: 90px;
     text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
   }
 </style>
