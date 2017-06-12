@@ -13,7 +13,7 @@ export default new Router({
       component: Policii
     },
     {
-      path: '/:title',
+      path: ':title',
       name: 'Policies',
       component: Policies,
       props: true

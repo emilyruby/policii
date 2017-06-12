@@ -1,6 +1,4 @@
 <template>
-  <router-link :to="{
-    name: 'Policies', params: { userId: 123 }}">
     <div class="item">
       <div class="title">
         {{title}}
@@ -9,17 +7,17 @@
         {{image}}
       </div>
     </div>
-  </router-link>
 </template>
 
 <script>
   export default {
     name: 'category',
     props: {
-      title: {type: String, default: 'Category'},
+      title: {type: String, default: 'Hello'},
       image: {type: String, default: '*'}
     },
-    methods: {
+    computed: {
+
     }
   }
 </script>

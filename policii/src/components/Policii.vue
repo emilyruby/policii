@@ -2,16 +2,19 @@
   <div>
     <h1 id="title">{{ msg }}</h1>
     <categories></categories>
+    <policies></policies>
   </div>
 </template>
 
 <script>
 import Categories from '@/components/Categories.vue'
+import Policies from '@/components/Policies.vue'
 
 export default {
   name: 'policii',
   components: {
-    Categories
+    Categories,
+    Policies
   },
   data () {
     return {

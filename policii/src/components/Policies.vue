@@ -1,13 +1,15 @@
 <template>
   <div>
     <h1 id="title">{{title}}</h1>
-    <categories></categories>
   </div>
 </template>
 
 <script>
   export default {
-    name: 'Policies'
+    name: 'Policies',
+    props: {
+      title: {type: String, default: 'Hello'}
+    }
   }
 </script>
 
