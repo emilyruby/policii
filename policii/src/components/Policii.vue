@@ -1,8 +1,8 @@
 <template>
   <div>
     <h1 id="title">{{ msg }}</h1>
-    <policies v-show="active"></policies>
-    <categories v-on:active="activate"></categories>
+    <policies></policies>
+    <categories v-on:active="activate($event)"></categories>
   </div>
 </template>
 
@@ -16,15 +16,30 @@ export default {
     Categories,
     Policies
   },
-  data () {
+  data: function () {
     return {
       msg: 'policii',
-      active: false
+      active: false,
+      title: ''
     }
   },
+//  props: {
+//    heading: this.title,
+//    activated: this.active
+//  },
   methods: {
-    activate: function () {
+    activate: function (event) {
+      this.title = event
       this.active = !this.active
+    }
+  },
+  watch: {
+    active: {
+      handler: function () {
+        this.heading = this.title
+        this.activated = this.active
+      },
+      deep: true
     }
   }
 }

@@ -1,58 +1,58 @@
 <template>
   <div class="container">
-    <div v-on:click="active = !active">
+    <div v-on:click="activate($event)" id="environment & animal cruelty">
       <category title="environment & animal cruelty" image="🌳"></category>
     </div>
 
-    <div v-on:click="active = !active">
+    <div v-on:click="activate($event)" id="healthcare">
       <category title="healthcare" image="🏥"></category>
     </div>
 
-    <div v-on:click="active = !active">
+    <div v-on:click="activate($event)" id="education & childcare">
       <category title="education & childcare" image="📚"></category>
     </div>
 
-    <div v-on:click="active = !active">
+    <div v-on:click="activate($event)" id="security & defence">
       <category title="security & defence" image="🏰"></category>
     </div>
 
-    <div v-on:click="active = !active">
+    <div v-on:click="activate($event)" id="brexit">
       <category title="brexit" image="🇪🇺"></category>
     </div>
 
-    <div v-on:click="active = !active">
+    <div v-on:click="activate($event)" id="economy & democracy">
       <category title="economy & democracy" image="💰"></category>
     </div>
 
-    <div v-on:click="active = !active">
+    <div v-on:click="activate($event)" id="social care and security">
       <category title="social care and security" image="🎗️"></category>
     </div>
 
-    <div v-on:click="active = !active">
+    <div v-on:click="activate($event)" id="local communities">
       <category title="local communities" image="🏙"></category>
     </div>
 
-    <div v-on:click="active = !active">
+    <div v-on:click="activate($event)" id="infrastructure">
       <category title="infrastructure" image="🚂"></category>
     </div>
 
-    <div v-on:click="active = !active">
+    <div v-on:click="activate($event)" id="industry">
       <category title="industry" image="🏭"></category>
     </div>
 
-    <div v-on:click="active = !active">
+    <div v-on:click="activate($event)" id="housing">
       <category title="housing" image="🏡"></category>
     </div>
 
-    <div v-on:click="active = !active">
+    <div v-on:click="activate($event)" id="diverse & cultured communities">
       <category title="diverse & cultured communities" image="🌈"></category>
     </div>
 
-    <div v-on:click="active = !active">
+    <div v-on:click="activate($event)" id="disabilities and mental health">
       <category title="disabilities and mental health" image="♿️"></category>
     </div>
 
-    <div v-on:click="active = !active">
+    <div v-on:click="activate($event)" id="foreign policy">
       <category title="foreign policy" image="🌍️"></category>
     </div>
   </div>
@@ -68,13 +68,20 @@ export default {
   },
   data: function () {
     return {
-      active: false
+      active: false,
+      title: ''
+    }
+  },
+  methods: {
+    activate: function (event) {
+      this.active = !this.active
+      this.title = event.currentTarget.id
     }
   },
   watch: {
     active: {
       handler: function () {
-        this.$emit('active')
+        this.$emit('active', this.title)
       },
       deep: true
     }

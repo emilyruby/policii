@@ -1,6 +1,8 @@
 <template>
-  <div v-on:active="active = !active" v-show="active === true">
-    <h1 id="title">{{$route.params.title}}</h1>
+  <div v-show="active === true">
+    <h1 id="title">{{heading}}</h1>
+    <p>{{heading}}</p>
+    <p>{{activated}}</p>
     <div class="container">
       <div class="conservative">
         <p class="party" id="tory">conservative</p>
@@ -27,11 +29,11 @@
 </template>
 
 <script>
-  import Conservative from '@/components/Conservative.vue'
-  import Libdem from '@/components/Libdem.vue'
-  import Labour from '@/components/Labour.vue'
-  import Green from '@/components/Green.vue'
-  import Ukip from '@/components/Ukip.vue'
+  import Conservative from '@/components/parties/Conservative.vue'
+  import Libdem from '@/components/parties/Libdem.vue'
+  import Labour from '@/components/parties/Labour.vue'
+  import Green from '@/components/parties/Green.vue'
+  import Ukip from '@/components/parties/Ukip.vue'
 
   export default {
     name: 'Policies',
@@ -42,29 +44,36 @@
       Green,
       Ukip
     },
-    props: {
-      title: {type: String, default: 'Hello'}
-    },
     data: function () {
       return {
+        title: '',
         active: false
       }
     },
-    methods: {
-      active: function (a) {
-        console.log('hello')
-        this.active = a
-      }
-    },
-    created: function () {
-      this.$on('active', this.active)
+    props: [
+      'heading',
+      'activated'
+    ],
+    updated: function () {
+      console.log('child updated')
     }
+//    watch: {
+//      active: {
+//        handler: function () {
+//          this.$emit('active', this.title)
+//        },
+//        deep: true
+//      }
+//    },
+//    methods: {
+//      activate: function (a) {
+//        this.active = a
+//      }
+//    }
   }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
   .container {
     padding-top: 30px;
     height: 10px;

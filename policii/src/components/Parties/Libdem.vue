@@ -1,12 +1,11 @@
 <template>
   <div>
-
   </div>
 </template>
 
 <script>
   export default {
-    name: 'Conservative',
+    name: 'Libdem',
     props: {
       title: {type: String, default: 'Hello'}
     },

@@ -1,12 +1,12 @@
 <template>
   <div>
-    {{title}}
+
   </div>
 </template>
 
 <script>
   export default {
-    name: 'Libdem',
+    name: 'Conservative',
     props: {
       title: {type: String, default: 'Hello'}
     },
@@ -18,7 +18,6 @@
   }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
 </style>
