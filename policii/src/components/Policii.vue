@@ -1,7 +1,7 @@
 <template>
   <div>
-    <policies></policies>
     <h1 id="title">{{ msg }}</h1>
+    <policies></policies>
     <categories></categories>
   </div>
 </template>
@@ -32,7 +32,8 @@ export default {
   }
 
   #title {
-    font-size: 65px;
+    font-size: 75px;
+    font-weight: 600;
   }
 
   h1, h2 {

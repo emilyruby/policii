@@ -4,26 +4,44 @@
     <div class="container">
       <div class="conservative">
         <p class="party" id="tory">conservative</p>
+        <conservative></conservative>
       </div>
       <div class="libdem">
         <p class="party" id="lib">liberal democrats</p>
+        <libdem></libdem>
       </div>
       <div class="labour">
         <p class="party" id="lab">labour</p>
+        <labour></labour>
       </div>
       <div class="green">
         <p class="party" id="gre">green</p>
+        <green></green>
       </div>
       <div class="ukip">
         <p class="party" id="uk">ukip</p>
+        <ukip></ukip>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+  import Conservative from '@/components/Conservative.vue'
+  import Libdem from '@/components/Libdem.vue'
+  import Labour from '@/components/Labour.vue'
+  import Green from '@/components/Green.vue'
+  import Ukip from '@/components/Ukip.vue'
+
   export default {
     name: 'Policies',
+    components: {
+      Conservative,
+      Libdem,
+      Labour,
+      Green,
+      Ukip
+    },
     props: {
       title: {type: String, default: 'Hello'}
     },
