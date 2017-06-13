@@ -1,8 +1,8 @@
 <template>
   <div>
     <h1 id="title">{{ msg }}</h1>
-    <policies></policies>
-    <categories></categories>
+    <policies v-show="active"></policies>
+    <categories v-on:active="activate"></categories>
   </div>
 </template>
 
@@ -18,7 +18,13 @@ export default {
   },
   data () {
     return {
-      msg: 'policii'
+      msg: 'policii',
+      active: false
+    }
+  },
+  methods: {
+    activate: function () {
+      this.active = !this.active
     }
   }
 }

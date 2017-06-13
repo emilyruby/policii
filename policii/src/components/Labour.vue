@@ -6,7 +6,7 @@
 
 <script>
   export default {
-    name: 'Policies',
+    name: 'Labour',
     props: {
       title: {type: String, default: 'Hello'}
     },

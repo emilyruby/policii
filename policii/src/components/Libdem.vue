@@ -1,12 +1,12 @@
 <template>
   <div>
-
+    {{title}}
   </div>
 </template>
 
 <script>
   export default {
-    name: 'Policies',
+    name: 'Libdem',
     props: {
       title: {type: String, default: 'Hello'}
     },

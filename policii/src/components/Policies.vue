@@ -1,26 +1,26 @@
 <template>
-  <div>
+  <div v-on:active="active = !active" v-show="active === true">
     <h1 id="title">{{$route.params.title}}</h1>
     <div class="container">
       <div class="conservative">
         <p class="party" id="tory">conservative</p>
-        <conservative></conservative>
+        <conservative :title="$route.params.title"></conservative>
       </div>
       <div class="libdem">
         <p class="party" id="lib">liberal democrats</p>
-        <libdem></libdem>
+        <libdem :title="$route.params.title"></libdem>
       </div>
       <div class="labour">
         <p class="party" id="lab">labour</p>
-        <labour></labour>
+        <labour :title="$route.params.title"></labour>
       </div>
       <div class="green">
         <p class="party" id="gre">green</p>
-        <green></green>
+        <green :title="$route.params.title"></green>
       </div>
       <div class="ukip">
         <p class="party" id="uk">ukip</p>
-        <ukip></ukip>
+        <ukip :title="$route.params.title"></ukip>
       </div>
     </div>
   </div>
@@ -49,6 +49,15 @@
       return {
         active: false
       }
+    },
+    methods: {
+      active: function (a) {
+        console.log('hello')
+        this.active = a
+      }
+    },
+    created: function () {
+      this.$on('active', this.active)
     }
   }
 </script>

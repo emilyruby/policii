@@ -1,74 +1,60 @@
 <template>
   <div class="container">
-    <router-link v-on:click="activate" :to="{
-    name: 'Policies', params: { title: 'environment & animal cruelty' }}">
+    <div v-on:click="active = !active">
       <category title="environment & animal cruelty" image="🌳"></category>
-    </router-link>
+    </div>
 
-    <router-link v-on:click="activate" :to="{
-    name: 'Policies', params: { title: 'healthcare' }}">
+    <div v-on:click="active = !active">
       <category title="healthcare" image="🏥"></category>
-    </router-link>
+    </div>
 
-    <router-link v-on:click="activate" :to="{
-    name: 'Policies', params: { title: 'education & childcare' }}">
+    <div v-on:click="active = !active">
       <category title="education & childcare" image="📚"></category>
-    </router-link>
+    </div>
 
-    <router-link v-on:click="activate" :to="{
-    name: 'Policies', params: { title: 'security & defence' }}">
+    <div v-on:click="active = !active">
       <category title="security & defence" image="🏰"></category>
-    </router-link>
+    </div>
 
-    <router-link v-on:click="activate" :to="{
-    name: 'Policies', params: { title: 'brexit' }}">
+    <div v-on:click="active = !active">
       <category title="brexit" image="🇪🇺"></category>
-    </router-link>
+    </div>
 
-    <router-link v-on:click="activate" :to="{
-    name: 'Policies', params: { title: 'economy & democracy' }}">
+    <div v-on:click="active = !active">
       <category title="economy & democracy" image="💰"></category>
-    </router-link>
+    </div>
 
-    <router-link v-on:click="activate" :to="{
-    name: 'Policies', params: { title: 'social care and security' }}">
+    <div v-on:click="active = !active">
       <category title="social care and security" image="🎗️"></category>
-    </router-link>
+    </div>
 
-    <router-link v-on:click="activate" :to="{
-    name: 'Policies', params: { title: 'local communities' }}">
+    <div v-on:click="active = !active">
       <category title="local communities" image="🏙"></category>
-    </router-link>
+    </div>
 
-    <router-link v-on:click="activate" :to="{
-    name: 'Policies', params: { title: 'infrastructure' }}">
+    <div v-on:click="active = !active">
       <category title="infrastructure" image="🚂"></category>
-    </router-link>
+    </div>
 
-    <router-link v-on:click="activate" :to="{
-    name: 'Policies', params: { title: 'industry' }}">
+    <div v-on:click="active = !active">
       <category title="industry" image="🏭"></category>
-    </router-link>
+    </div>
 
-    <router-link v-on:click="activate" :to="{
-    name: 'Policies', params: { title: 'housing' }}">
+    <div v-on:click="active = !active">
       <category title="housing" image="🏡"></category>
-    </router-link>
+    </div>
 
-    <router-link v-on:click="activate" :to="{
-    name: 'Policies', params: { title: 'diverse & cultured communities' }}">
+    <div v-on:click="active = !active">
       <category title="diverse & cultured communities" image="🌈"></category>
-    </router-link>
+    </div>
 
-    <router-link v-on:click="activate" :to="{
-    name: 'Policies', params: { title: 'disabilities and mental health' }}">
+    <div v-on:click="active = !active">
       <category title="disabilities and mental health" image="♿️"></category>
-    </router-link>
+    </div>
 
-    <router-link v-on:click="activate" :to="{
-    name: 'Policies', params: { title: 'foreign policy' }}">
+    <div v-on:click="active = !active">
       <category title="foreign policy" image="🌍️"></category>
-    </router-link>
+    </div>
   </div>
 </template>
 
@@ -85,9 +71,12 @@ export default {
       active: false
     }
   },
-  methods: {
-    activate: function () {
-      this.active = !this.active
+  watch: {
+    active: {
+      handler: function () {
+        this.$emit('active')
+      },
+      deep: true
     }
   }
 }

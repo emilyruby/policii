@@ -6,7 +6,7 @@
 
 <script>
   export default {
-    name: 'Policies',
+    name: 'Ukip',
     props: {
       title: {type: String, default: 'Hello'}
     },
