@@ -1,8 +1,6 @@
 <template>
-  <div v-show="active === true">
+  <div v-show="activated === true">
     <h1 id="title">{{heading}}</h1>
-    <p>{{heading}}</p>
-    <p>{{activated}}</p>
     <div class="container">
       <div class="conservative">
         <p class="party" id="tory">conservative</p>
@@ -44,12 +42,6 @@
       Green,
       Ukip
     },
-    data: function () {
-      return {
-        title: '',
-        active: false
-      }
-    },
     props: [
       'heading',
       'activated'
@@ -57,19 +49,6 @@
     updated: function () {
       console.log('child updated')
     }
-//    watch: {
-//      active: {
-//        handler: function () {
-//          this.$emit('active', this.title)
-//        },
-//        deep: true
-//      }
-//    },
-//    methods: {
-//      activate: function (a) {
-//        this.active = a
-//      }
-//    }
   }
 </script>
 
@@ -87,8 +66,9 @@
     color: #000000;
   }
   #title {
-    font-size: 65px;
+    font-size: 45px;
     font-weight: 400;
+    padding-bottom: 20px;
   }
   .conservative {
     grid-column-start: 1;

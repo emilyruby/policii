@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 id="title">{{ msg }}</h1>
-    <policies></policies>
+    <policies v-bind:activated="active" v-bind:heading="title"></policies>
     <categories v-on:active="activate($event)"></categories>
   </div>
 </template>
@@ -23,10 +23,10 @@ export default {
       title: ''
     }
   },
-//  props: {
-//    heading: this.title,
-//    activated: this.active
-//  },
+  props: {
+    heading: this.title,
+    activated: this.active
+  },
   methods: {
     activate: function (event) {
       this.title = event
