@@ -1,20 +1,15 @@
 <template>
   <div>
-
+    Good Morning America!
   </div>
 </template>
 
 <script>
   export default {
     name: 'Labour',
-    props: {
-      title: {type: String, default: 'Hello'}
-    },
-    data: function () {
-      return {
-        active: false
-      }
-    }
+    props: [
+      'heading'
+    ]
   }
 </script>
 

@@ -4,34 +4,34 @@
     <div class="container">
       <div class="item conservative">
         <p class="party" id="tory">conservative</p>
-        <conservative :title="$route.params.title"></conservative>
       </div>
       <div class="item libdem">
         <p class="party" id="lib">liberal democrats</p>
-        <libdem :title="$route.params.title"></libdem>
       </div>
       <div class="item labour">
         <p class="party" id="lab">labour</p>
-        <labour :title="$route.params.title"></labour>
       </div>
       <div class="item green">
         <p class="party" id="gre">green</p>
-        <green :title="$route.params.title"></green>
       </div>
       <div class="item ukip">
         <p class="party" id="uk">ukip</p>
-        <ukip :title="$route.params.title"></ukip>
       </div>
+      <conservative :heading="heading"></conservative>
+      <libdem :heading="heading"></libdem>
+      <labour :heading="heading"></labour>
+      <green :heading="heading"></green>
+      <ukip :heading="heading"></ukip>
     </div>
   </div>
 </template>
 
 <script>
-  import Conservative from '@/components/parties/Conservative.vue'
-  import Libdem from '@/components/parties/Libdem.vue'
-  import Labour from '@/components/parties/Labour.vue'
-  import Green from '@/components/parties/Green.vue'
-  import Ukip from '@/components/parties/Ukip.vue'
+  import Conservative from '@/components/Parties/Conservative.vue'
+  import Libdem from '@/components/Parties/Libdem.vue'
+  import Labour from '@/components/Parties/Labour.vue'
+  import Green from '@/components/Parties/Green.vue'
+  import Ukip from '@/components/Parties/Ukip.vue'
 
   export default {
     name: 'Policies',
@@ -54,13 +54,13 @@
 
 <style scoped>
   .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: 25% 100px auto;
+    justify-items: center;
+    width: 100vw;
+    align-items: start;
     justify-content: center;
-    align-items: flex-start;
-    align-content: center;
-    margin: 0;
   }
   body {
     font-family: 'Roboto Mono', monospace;
@@ -76,18 +76,28 @@
     font-weight: 600;
   }
   #tory {
+    grid-column: 1;
+    grid-row: 1;
     color: darkblue;
   }
   #lib {
+    grid-column: 2;
+    grid-row: 1;
     color: #ffcc00;
   }
   #lab {
+    grid-column: 3;
+    grid-row: 1;
     color: darkred;
   }
   #gre {
+    grid-column: 4;
+    grid-row: 1;
     color: green;
   }
   #uk {
+    grid-column: 15;
+    grid-row: 1;
     color: purple;
   }
 </style>

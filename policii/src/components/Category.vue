@@ -13,7 +13,7 @@
   export default {
     name: 'category',
     props: {
-      title: {type: String, default: 'Hello'},
+      title: {type: String, default: ''},
       image: {type: String, default: '*'}
     },
     computed: {
