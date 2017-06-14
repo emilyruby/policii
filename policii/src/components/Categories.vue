@@ -1,74 +1,60 @@
 <template>
   <div class="container">
-    <router-link :to="{
-    name: 'Policies', params: { title: 'environment & animal cruelty' }}">
+    <div v-on:click="activate($event)" id="environment & animal cruelty">
       <category title="environment & animal cruelty" image="🌳"></category>
-    </router-link>
+    </div>
 
-    <router-link :to="{
-    name: 'Policies', params: { title: 'healthcare' }}">
+    <div v-on:click="activate($event)" id="healthcare">
       <category title="healthcare" image="🏥"></category>
-    </router-link>
+    </div>
 
-    <router-link :to="{
-    name: 'Policies', params: { title: 'education & childcare' }}">
+    <div v-on:click="activate($event)" id="education & childcare">
       <category title="education & childcare" image="📚"></category>
-    </router-link>
+    </div>
 
-    <router-link :to="{
-    name: 'Policies', params: { title: 'security & defence' }}">
+    <div v-on:click="activate($event)" id="security & defence">
       <category title="security & defence" image="🏰"></category>
-    </router-link>
+    </div>
 
-    <router-link :to="{
-    name: 'Policies', params: { title: 'brexit' }}">
+    <div v-on:click="activate($event)" id="brexit">
       <category title="brexit" image="🇪🇺"></category>
-    </router-link>
+    </div>
 
-    <router-link :to="{
-    name: 'Policies', params: { title: 'economy & democracy' }}">
+    <div v-on:click="activate($event)" id="economy & democracy">
       <category title="economy & democracy" image="💰"></category>
-    </router-link>
+    </div>
 
-    <router-link :to="{
-    name: 'Policies', params: { title: 'social care and security' }}">
+    <div v-on:click="activate($event)" id="social care and security">
       <category title="social care and security" image="🎗️"></category>
-    </router-link>
+    </div>
 
-    <router-link :to="{
-    name: 'Policies', params: { title: 'local communities' }}">
+    <div v-on:click="activate($event)" id="local communities">
       <category title="local communities" image="🏙"></category>
-    </router-link>
+    </div>
 
-    <router-link :to="{
-    name: 'Policies', params: { title: 'infrastructure' }}">
+    <div v-on:click="activate($event)" id="infrastructure">
       <category title="infrastructure" image="🚂"></category>
-    </router-link>
+    </div>
 
-    <router-link :to="{
-    name: 'Policies', params: { title: 'industry' }}">
+    <div v-on:click="activate($event)" id="industry">
       <category title="industry" image="🏭"></category>
-    </router-link>
+    </div>
 
-    <router-link :to="{
-    name: 'Policies', params: { title: 'housing' }}">
+    <div v-on:click="activate($event)" id="housing">
       <category title="housing" image="🏡"></category>
-    </router-link>
+    </div>
 
-    <router-link :to="{
-    name: 'Policies', params: { title: 'diverse & cultured communities' }}">
+    <div v-on:click="activate($event)" id="diverse & cultured communities">
       <category title="diverse & cultured communities" image="🌈"></category>
-    </router-link>
+    </div>
 
-    <router-link :to="{
-    name: 'Policies', params: { title: 'disabilities and mental health' }}">
+    <div v-on:click="activate($event)" id="disabilities and mental health">
       <category title="disabilities and mental health" image="♿️"></category>
-    </router-link>
+    </div>
 
-    <router-link :to="{
-    name: 'Policies', params: { title: 'foreign policy' }}">
+    <div v-on:click="activate($event)" id="foreign policy">
       <category title="foreign policy" image="🌍️"></category>
-    </router-link>
+    </div>
   </div>
 </template>
 
@@ -79,6 +65,26 @@ export default {
   name: 'categories',
   components: {
     Category
+  },
+  data: function () {
+    return {
+      active: false,
+      title: ''
+    }
+  },
+  methods: {
+    activate: function (event) {
+      this.active = !this.active
+      this.title = event.currentTarget.id
+    }
+  },
+  watch: {
+    active: {
+      handler: function () {
+        this.$emit('active', this.title)
+      },
+      deep: true
+    }
   }
 }
 </script>

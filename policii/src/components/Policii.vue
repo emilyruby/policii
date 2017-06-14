@@ -1,8 +1,8 @@
 <template>
   <div>
-    <policies></policies>
     <h1 id="title">{{ msg }}</h1>
-    <categories></categories>
+    <policies v-bind:activated="active" v-bind:heading="title"></policies>
+    <categories v-on:active="activate($event)"></categories>
   </div>
 </template>
 
@@ -16,9 +16,30 @@ export default {
     Categories,
     Policies
   },
-  data () {
+  data: function () {
     return {
-      msg: 'policii'
+      msg: 'policii',
+      active: false,
+      title: ''
+    }
+  },
+  props: {
+    heading: this.title,
+    activated: this.active
+  },
+  methods: {
+    activate: function (event) {
+      this.title = event
+      this.active = !this.active
+    }
+  },
+  watch: {
+    active: {
+      handler: function () {
+        this.heading = this.title
+        this.activated = this.active
+      },
+      deep: true
     }
   }
 }
@@ -32,7 +53,8 @@ export default {
   }
 
   #title {
-    font-size: 65px;
+    font-size: 75px;
+    font-weight: 600;
   }
 
   h1, h2 {
