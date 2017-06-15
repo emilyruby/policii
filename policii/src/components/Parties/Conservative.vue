@@ -1,5 +1,5 @@
 <template>
-  <div v-html="content">
+  <div id="policies" v-html="content">
   </div>
 </template>
 
@@ -16,11 +16,7 @@
     ],
     computed: {
       content: function () {
-        const showdown = require('showdown')
-        const converter = new showdown.Converter()
-        const text = '#hello, markdown!'
-        const html = converter.makeHtml(text)
-        return html
+
       }
     }
   }

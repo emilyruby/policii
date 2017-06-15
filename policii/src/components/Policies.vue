@@ -30,7 +30,7 @@
   import Conservative from '@/components/Parties/Conservative.vue'
   import Libdem from '@/components/Parties/Libdem.vue'
   import Labour from '@/components/Parties/Labour.vue'
-  import Green from '@/components/Parties/Green.vue'
+  import Green from '@/components/Parties/Labour.vue'
   import Ukip from '@/components/Parties/Ukip.vue'
 
   export default {
