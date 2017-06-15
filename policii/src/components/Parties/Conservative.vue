@@ -1,18 +1,22 @@
 <template>
-  <div>
-
+  <div id="policies" v-html="content">
   </div>
 </template>
 
 <script>
   export default {
     name: 'Conservative',
-    props: {
-      title: {type: String, default: 'Hello'}
-    },
     data: function () {
       return {
-        active: false
+        html: ''
+      }
+    },
+    props: [
+      'heading'
+    ],
+    computed: {
+      content: function () {
+
       }
     }
   }

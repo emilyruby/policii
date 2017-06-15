@@ -1,19 +1,15 @@
 <template>
   <div>
+    Good Morning America!
   </div>
 </template>
 
 <script>
   export default {
     name: 'Libdem',
-    props: {
-      title: {type: String, default: 'Hello'}
-    },
-    data: function () {
-      return {
-        active: false
-      }
-    }
+    props: [
+      'heading'
+    ]
   }
 </script>
 
