@@ -2,19 +2,19 @@
   <div>
     <brexit :heading="heading">
     </brexit>
-    <disabilities v-show="title"></disabilities>
-    <diverse v-show="title"></diverse>
-    <economy v-show="title"></economy>
-    <education v-show="title"></education>
-    <environment v-show="title"></environment>
-    <foreign v-show="title"></foreign>
-    <healthcare v-show="title"></healthcare>
-    <housing v-show="title"></housing>
-    <industry v-show="title"></industry>
-    <infrastructure v-show="title"></infrastructure>
-    <local v-show="title"></local>
-    <security v-show="title"></security>
-    <social v-show="title"></social>
+    <disabilities :heading="heading" v-show="title === 'disabilities'"></disabilities>
+    <diverse :heading="heading" v-show="title"></diverse>
+    <economy :heading="heading" v-show="title"></economy>
+    <education :heading="heading" v-show="title"></education>
+    <environment :heading="heading" v-show="title"></environment>
+    <foreign :heading="heading" v-show="title"></foreign>
+    <healthcare :heading="heading" v-show="title"></healthcare>
+    <housing :heading="heading" v-show="title"></housing>
+    <industry :heading="heading" v-show="title"></industry>
+    <infrastructure :heading="heading" v-show="title"></infrastructure>
+    <local :heading="heading" v-show="title"></local>
+    <security :heading="heading" v-show="title"></security>
+    <social :heading="heading" v-show="title"></social>
   </div>
 </template>
 
