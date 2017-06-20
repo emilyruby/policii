@@ -1,5 +1,6 @@
 <template>
   <div>
+    {{heading}}
     <ul>
       <li>Set aside significant numbers of visas for workers in <code>strategically important
         sectors</code>.</li>

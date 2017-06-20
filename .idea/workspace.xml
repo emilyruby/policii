@@ -2,38 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37fbcfb6-c0e3-4e8a-adfc-06faa711e208" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Brexit.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Disabilities.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Diverse.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Economy.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Education.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Environment.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Foreign.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Healthcare.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Housing.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Industry.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Infrastructure.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Local.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Security.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Social.vue" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/brexit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/disabilities and mental health.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/diverse &amp; cultured communities.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/economy &amp; democracy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/education &amp; childcare.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/environment &amp; animal cruelty.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/foreign policy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/healthcare.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/housing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/industry.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/infrastructure.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/local communities.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/security &amp; defence.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/social care and security.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/emily.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/emily.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/policii/src/components/Parties/Conservative.vue" afterPath="$PROJECT_DIR$/policii/src/components/Parties/Conservative.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/policii/src/components/Policies.vue" afterPath="$PROJECT_DIR$/policii/src/components/Policies.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Brexit.vue" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Brexit.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/policii/src/components/Policii.vue" afterPath="$PROJECT_DIR$/policii/src/components/Policii.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,14 +19,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Conservative.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/policii/src/components/Parties/Conservative.vue">
+      <file leaf-file-name="Policii.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/policii/src/components/Policii.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="58" lean-forward="false" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
-              <folding>
-                <element signature="e#731#797#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="524">
+              <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="41" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,8 +32,8 @@
       <file leaf-file-name="Policies.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/policii/src/components/Policies.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="690">
+              <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
               <folding>
                 <element signature="e#843#907#0" expanded="true" />
               </folding>
@@ -72,11 +41,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Policii.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/policii/src/components/Policii.vue">
+      <file leaf-file-name="Conservative.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/policii/src/components/Parties/Conservative.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="585">
+              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+              <folding>
+                <element signature="e#705#771#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Brexit.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/policii/src/components/Policies/Conservative/Brexit.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -106,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/security &amp; defence.html" />
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/local communities.html" />
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/social care and security.html" />
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/diverse &amp; cultured communities.html" />
@@ -156,6 +136,7 @@
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Conservative/social care and security.html" />
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Social.vue" />
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Brexit.vue" />
+        <option value="$PROJECT_DIR$/policii/src/components/Policii.vue" />
         <option value="$PROJECT_DIR$/policii/src/components/Parties/Conservative.vue" />
       </list>
     </option>
@@ -522,12 +503,12 @@
       <workItem from="1497348167215" duration="7000" />
       <workItem from="1497348196145" duration="20640000" />
       <workItem from="1497804437574" duration="122000" />
-      <workItem from="1497951725352" duration="2561000" />
+      <workItem from="1497951725352" duration="3723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45649000" />
+    <option name="totallyTimeSpent" value="46811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="969" extended-state="6" />
@@ -937,22 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/policii/src/components/Policii.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/policii/src/components/Policies/Conservative/Brexit.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/policii/src/components/Policies/Conservative/Disabilities.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -961,22 +926,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/policii/src/components/Policies/Conservative/Brexit.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/policii/src/components/Policies.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="690">
+          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
           <folding>
             <element signature="e#843#907#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/policii/src/components/Policii.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="41" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/policii/src/components/Parties/Conservative.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="58" lean-forward="false" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        <state relative-caret-position="585">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
           <folding>
-            <element signature="e#731#797#0" expanded="true" />
+            <element signature="e#705#771#0" expanded="true" />
           </folding>
         </state>
       </provider>

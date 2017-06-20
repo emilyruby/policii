@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 id="title">{{ msg }}</h1>
-    <policies v-bind:activated="active" v-bind:heading="title"></policies>
+    <policies :activated="active" :heading="title"></policies>
     <categories v-on:active="activate($event)"></categories>
   </div>
 </template>
@@ -45,7 +45,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   body {
     font-family: 'Roboto Mono', monospace;

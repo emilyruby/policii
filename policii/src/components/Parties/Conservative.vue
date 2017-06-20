@@ -1,8 +1,8 @@
 <template>
   <div id="policies" v-html="html">
     {{title}}
-    <brexit v-show="title === 'brexit'" :heading="heading">
-      {{title}}
+    <brexit v-bind:heading="heading">
+      Hello
     </brexit>
     <disabilities v-show="title"></disabilities>
     <diverse v-show="title"></diverse>
@@ -54,14 +54,8 @@
       Security,
       Social
     },
-    data: function () {
-      return {
-        html: ''
-      }
-    },
     props: [
-      'heading',
-      'html'
+      'heading'
     ],
     computed: {
       title: function () {
