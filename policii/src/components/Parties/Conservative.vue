@@ -1,8 +1,6 @@
 <template>
-  <div id="policies" v-html="html">
-    {{title}}
-    <brexit v-bind:heading="heading">
-      Hello
+  <div>
+    <brexit :heading="heading">
     </brexit>
     <disabilities v-show="title"></disabilities>
     <diverse v-show="title"></diverse>
@@ -54,13 +52,16 @@
       Security,
       Social
     },
-    props: [
-      'heading'
-    ],
+    props: {
+      heading: ''
+    },
     computed: {
       title: function () {
         return this.heading.split(' ')[0]
       }
+    },
+    updated: function () {
+      console.log('conservative updated')
     }
   }
 </script>

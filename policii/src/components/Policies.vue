@@ -17,7 +17,9 @@
       <div class="item ukip">
         <p class="party" id="uk">ukip</p>
       </div>
-      <conservative :heading="heading"></conservative>
+      <conservative :heading="heading">
+        Hello
+      </conservative>
       <libdem :heading="heading"></libdem>
       <labour :heading="heading"></labour>
       <green :heading="heading"></green>
@@ -42,10 +44,10 @@
       Green,
       Ukip
     },
-    props: [
-      'heading',
-      'activated'
-    ],
+    props: {
+      heading: '',
+      activated: ''
+    },
     updated: function () {
       console.log('child updated')
     }

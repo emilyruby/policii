@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{heading}}
+    Hello
     <ul>
       <li>Set aside significant numbers of visas for workers in <code>strategically important
         sectors</code>.</li>
@@ -44,7 +44,10 @@
     name: 'Brexit',
     props: [
       'heading'
-    ]
+    ],
+    updated: function () {
+      console.log('conservative brexit updated')
+    }
   }
 </script>
 
