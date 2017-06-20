@@ -26,10 +26,9 @@
   .item {
     display: flex;
     width: 250px;
-    height: 250px;
+    height: auto;
     flex-basis: auto;
     text-align: center;
-    padding: 15px;
     position: relative;
     justify-content: center;
   }
@@ -53,5 +52,17 @@
   a {
     text-decoration: none;
     color: black;
+  }
+
+  ul {
+    list-style-position: inside;
+  }
+
+  li {
+    margin: 0 0 15px 0;
+  }
+
+  code {
+    color: purple;
   }
 </style>
