@@ -9,6 +9,7 @@
 <script>
 import Categories from '@/components/Categories.vue'
 import Policies from '@/components/Policies.vue'
+import { mapState } from 'vuex'
 
 export default {
   name: 'policii',
@@ -16,31 +17,20 @@ export default {
     Categories,
     Policies
   },
-  data: function () {
-    return {
-      msg: 'policii',
-      active: false,
-      title: ''
-    }
-  },
-  props: {
-    heading: this.title,
-    activated: this.active
+  computed: {
+    heading: state => state.heading,
+    active: state => state.active
   },
   methods: {
-    activate: function (event) {
-      this.title = event
-      this.active = !this.active
-    }
-  },
-  watch: {
-    active: {
-      handler: function () {
-        this.heading = this.title
-        this.activated = this.active
-      },
-      deep: true
-    }
+    activate (event) {
+      this.update({
+        title: event.currentTarget.id,
+        active: !active,
+      })
+    },
+    ...mapMutations([
+      'update',
+    ]),
   }
 }
 </script>

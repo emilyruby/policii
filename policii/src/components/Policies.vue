@@ -14,14 +14,14 @@
       <div class="item green">
         <p class="party" id="gre">green</p>
       </div>
-      <div class="item ukip">
-        <p class="party" id="uk">ukip</p>
-      </div>
+      <!--<div class="item ukip">-->
+        <!--<p class="party" id="uk">ukip</p>-->
+      <!--</div>-->
       <conservative id="conservative" :heading="heading"></conservative>
       <libdem id="libdem" :heading="heading"></libdem>
       <labour id="labour" :heading="heading"></labour>
       <green id="green" :heading="heading"></green>
-      <ukip id="ukip" :heading="heading"></ukip>
+      <!--<ukip id="ukip" :heading="heading"></ukip>-->
     </div>
   </div>
 </template>
