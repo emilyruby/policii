@@ -74,8 +74,15 @@ export default {
   },
   methods: {
     activate: function (event) {
-      this.active = !this.active
-      this.title = event.currentTarget.id
+      if (this.title === '') {
+        this.title = event.currentTarget.id
+      }
+      console.log(`title : ${this.title}, target title : ${event.currentTarget.id}`)
+      if (this.title === event.currentTarget.id) {
+        this.active = !this.active
+      } else {
+        this.title = event.currentTarget.id
+      }
     }
   },
   watch: {
