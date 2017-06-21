@@ -2,92 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37fbcfb6-c0e3-4e8a-adfc-06faa711e208" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Labour/Brexit.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Labour/Disabilities.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Labour/Diverse.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Labour/Economy.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Labour/Education.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Labour/Environment.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Labour/Foreign.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Labour/Healthcare.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Labour/Housing.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Labour/Industry.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Labour/Infrastructure.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Labour/Local.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Labour/Security.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Labour/Social.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Disabilities.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Diverse.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Economy.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Education.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Environment.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Foreign.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Healthcare.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Housing.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Industry.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Infrastructure.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Local.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Security.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Social.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/Brexit.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/Disabilities.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/Diverse.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/Economy.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/Education.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/Environment.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/Foreign.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/Healthcare.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/Housing.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/Industry.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/Infrastructure.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/Local.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/Security.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/Social.vue" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Labour/brexit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Labour/disabilities and mental health.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Labour/diverse &amp; cultured communities.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Labour/economy &amp; democracy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Labour/education &amp; childcare.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Labour/environment &amp; animal cruelty.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Labour/foreign policy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Labour/healthcare.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Labour/housing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Labour/industry.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Labour/infrastructure.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Labour/local communities.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Labour/security &amp; defence.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Labour/social care and security.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/brexit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/disabilities and mental health.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/diverse &amp; cultured communities.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/economy &amp; democracy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/education &amp; childcare.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/environment &amp; animal cruelty.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/foreign policy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/healthcare.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/housing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/industry.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/infrastructure.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/local communities.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/security &amp; defence.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/social care and security.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/brexit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/disabilities and mental health.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/diverse &amp; cultured communities.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/economy &amp; democracy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/education &amp; childcare.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/environment &amp; animal cruelty.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/foreign policy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/healthcare.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/housing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/industry.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/infrastructure.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/local communities.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/security &amp; defence.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Ukip/social care and security.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/policii/src/components/Policies/Green/social care and security.html" afterPath="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Brexit.vue" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/policii/src/components/Categories.vue" afterPath="$PROJECT_DIR$/policii/src/components/Categories.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/policii/src/components/Category.vue" afterPath="$PROJECT_DIR$/policii/src/components/Category.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/policii/src/components/Parties/Conservative.vue" afterPath="$PROJECT_DIR$/policii/src/components/Parties/Conservative.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/policii/src/components/Parties/Green.vue" afterPath="$PROJECT_DIR$/policii/src/components/Parties/Green.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/policii/src/components/Parties/Labour.vue" afterPath="$PROJECT_DIR$/policii/src/components/Parties/Labour.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/policii/src/components/Parties/Libdem.vue" afterPath="$PROJECT_DIR$/policii/src/components/Parties/Libdem.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/policii/src/components/Parties/Ukip.vue" afterPath="$PROJECT_DIR$/policii/src/components/Parties/Ukip.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/policii/src/components/Policies.vue" afterPath="$PROJECT_DIR$/policii/src/components/Policies.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -101,13 +25,63 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Category.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/policii/src/components/Category.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logo.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/policii/src/components/Logo.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Policies.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/policii/src/components/Policies.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Policii.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/policii/src/components/Policii.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Categories.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/policii/src/components/Categories.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-705">
+              <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>v-on</find>
       <find>apply</find>
-      <find>active</find>
       <find>hi</find>
       <find>hello</find>
       <find>activated</find>
@@ -117,6 +91,7 @@
       <find>updated</find>
       <find>250</find>
       <find>policies</find>
+      <find>active</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -128,13 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Environment.vue" />
-        <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/foreign policy.html" />
-        <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Foreign.vue" />
-        <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/healthcare.html" />
-        <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Healthcare.vue" />
-        <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/housing.html" />
-        <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Housing.vue" />
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/industry.html" />
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Industry.vue" />
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/infrastructure.html" />
@@ -148,7 +116,6 @@
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Disabilities.vue" />
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/brexit.html" />
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Libdem/Brexit.vue" />
-        <option value="$PROJECT_DIR$/policii/src/components/Policii.vue" />
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Ukip/brexit.html" />
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Ukip/Brexit.vue" />
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Ukip/disabilities and mental health.html" />
@@ -179,6 +146,14 @@
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Ukip/Environment.vue" />
         <option value="$PROJECT_DIR$/policii/src/components/Policies/Conservative/Brexit.vue" />
         <option value="$PROJECT_DIR$/policii/src/components/Category.vue" />
+        <option value="$PROJECT_DIR$/policii/src/components/Parties/Conservative.vue" />
+        <option value="$PROJECT_DIR$/policii/src/components/Parties/Green.vue" />
+        <option value="$PROJECT_DIR$/policii/src/components/Parties/Labour.vue" />
+        <option value="$PROJECT_DIR$/policii/src/components/Parties/Libdem.vue" />
+        <option value="$PROJECT_DIR$/policii/src/components/Parties/Ukip.vue" />
+        <option value="$PROJECT_DIR$/policii/src/components/Categories.vue" />
+        <option value="$PROJECT_DIR$/policii/src/components/Policies.vue" />
+        <option value="$PROJECT_DIR$/policii/src/components/Policii.vue" />
       </list>
     </option>
   </component>
@@ -347,10 +322,6 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="policies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -489,17 +460,18 @@
       <workItem from="1497348167215" duration="7000" />
       <workItem from="1497348196145" duration="20640000" />
       <workItem from="1497804437574" duration="122000" />
-      <workItem from="1497951725352" duration="8807000" />
+      <workItem from="1497951725352" duration="12357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51895000" />
+    <option name="totallyTimeSpent" value="55445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="969" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -546,62 +518,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/policii/src/components/Policies/Libdem/foreign policy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/policii/src/components/Policies/Libdem/Foreign.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/policii/src/components/Policies/Libdem/healthcare.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/policii/src/components/Policies/Libdem/Healthcare.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/policii/src/components/Policies/Libdem/Housing.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/policii/src/components/Policies/Libdem/housing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/policii/src/components/Policies/Libdem/industry.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/policii/src/components/Policies/Libdem/Industry.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -694,14 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
           <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/policii/src/components/Policii.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -930,14 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/policii/src/components/Category.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/policii/src/components/Policies/Conservative/Brexit.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="708">
@@ -946,10 +846,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/policii/src/components/Logo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/policii/src/components/Parties/Ukip.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/policii/src/components/Parties/Libdem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/policii/src/components/Parties/Labour.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/policii/src/components/Parties/Green.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/policii/src/components/Parties/Conservative.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="60" column="5" lean-forward="false" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/policii/src/components/Category.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/policii/src/components/Categories.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+        <state relative-caret-position="-705">
+          <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/policii/src/components/Policies.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/policii/src/components/Policii.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
           <folding />
         </state>
       </provider>
