@@ -15,9 +15,6 @@
     props: {
       title: {type: String, default: ''},
       image: {type: String, default: '*'}
-    },
-    computed: {
-
     }
   }
 </script>
@@ -38,12 +35,13 @@
     position: absolute;
     text-align: center;
     font-size: 25px;
+    padding: 15px;
   }
 
   .emoji {
     display: inline-block;
     position: relative;
-    padding-top: 50px;
+    padding-top: 80px;
     align-self: center;
     font-size: 90px;
     text-align: center;
