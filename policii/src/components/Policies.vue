@@ -45,9 +45,6 @@
     props: {
       heading: '',
       activated: ''
-    },
-    updated: function () {
-      console.log('child updated')
     }
   }
 </script>

@@ -58,9 +58,6 @@
       title: function () {
         return this.heading.split(' ')[0]
       }
-    },
-    updated: function () {
-      console.log('ukip updated')
     }
   }
 </script>
