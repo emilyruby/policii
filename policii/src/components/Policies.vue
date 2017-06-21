@@ -17,11 +17,11 @@
       <div class="item ukip">
         <p class="party" id="uk">ukip</p>
       </div>
-      <conservative :heading="heading"></conservative>
-      <libdem :heading="heading"></libdem>
-      <labour :heading="heading"></labour>
-      <green :heading="heading"></green>
-      <ukip :heading="heading"></ukip>
+      <conservative id="conservative" :heading="heading"></conservative>
+      <libdem id="libdem" :heading="heading"></libdem>
+      <labour id="labour" :heading="heading"></labour>
+      <green id="green" :heading="heading"></green>
+      <ukip id="ukip" :heading="heading"></ukip>
     </div>
   </div>
 </template>
@@ -30,7 +30,7 @@
   import Conservative from '@/components/Parties/Conservative.vue'
   import Libdem from '@/components/Parties/Libdem.vue'
   import Labour from '@/components/Parties/Labour.vue'
-  import Green from '@/components/Parties/Labour.vue'
+  import Green from '@/components/Parties/Green.vue'
   import Ukip from '@/components/Parties/Ukip.vue'
 
   export default {
@@ -42,12 +42,9 @@
       Green,
       Ukip
     },
-    props: [
-      'heading',
-      'activated'
-    ],
-    updated: function () {
-      console.log('child updated')
+    props: {
+      heading: '',
+      activated: ''
     }
   }
 </script>
@@ -56,7 +53,7 @@
   .container {
     display: grid;
     grid-template-columns: repeat(5, 20%);
-    grid-template-rows: 25% 100px auto;
+    grid-template-rows: 25% auto auto;
     justify-items: center;
     width: 100vw;
     align-items: start;
@@ -96,8 +93,28 @@
     color: green;
   }
   #uk {
-    grid-column: 15;
+    grid-column: 5;
     grid-row: 1;
     color: purple;
+  }
+  #conservative {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  #labour {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  #libdem {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  #ukip {
+    grid-column: 5;
+    grid-row: 2;
+  }
+  #green {
+    grid-column: 4;
+    grid-row: 2;
   }
 </style>

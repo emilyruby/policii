@@ -15,9 +15,6 @@
     props: {
       title: {type: String, default: ''},
       image: {type: String, default: '*'}
-    },
-    computed: {
-
     }
   }
 </script>
@@ -26,10 +23,9 @@
   .item {
     display: flex;
     width: 250px;
-    height: 250px;
+    height: auto;
     flex-basis: auto;
     text-align: center;
-    padding: 15px;
     position: relative;
     justify-content: center;
   }
@@ -39,12 +35,13 @@
     position: absolute;
     text-align: center;
     font-size: 25px;
+    padding: 15px;
   }
 
   .emoji {
     display: inline-block;
     position: relative;
-    padding-top: 50px;
+    padding-top: 80px;
     align-self: center;
     font-size: 90px;
     text-align: center;
@@ -53,5 +50,17 @@
   a {
     text-decoration: none;
     color: black;
+  }
+
+  ul {
+    list-style-position: inside;
+  }
+
+  li {
+    margin: 0 0 15px 0;
+  }
+
+  code {
+    color: purple;
   }
 </style>
