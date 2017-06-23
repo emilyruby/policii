@@ -12,6 +12,7 @@ export default new Vuex.Store({
     update (state, todo) {
       state.header = todo.title
       state.active = todo.active
+      console.log(state.header + ', ' + state.active)
     }
   },
   getters: {
