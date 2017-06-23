@@ -17,11 +17,11 @@
       <div class="item ukip">
         <p class="party" id="uk">ukip</p>
       </div>
-      <conservative id="conservative" :heading="heading"></conservative>
-      <libdem id="libdem" :heading="heading"></libdem>
-      <labour id="labour" :heading="heading"></labour>
-      <green id="green" :heading="heading"></green>
-      <ukip id="ukip" :heading="heading"></ukip>
+      <conservative id="conservative"></conservative>
+      <libdem id="libdem"></libdem>
+      <labour id="labour"></labour>
+      <green id="green"></green>
+      <ukip id="ukip"></ukip>
     </div>
   </div>
 </template>
@@ -57,10 +57,12 @@
     display: grid;
     grid-template-columns: repeat(5, 20%);
     grid-template-rows: 25% auto auto;
+    margin: 0;
     justify-items: center;
-    width: 100vw;
+    width: 95vw;
     align-items: start;
     justify-content: center;
+    text-align: center;
   }
   body {
     font-family: 'Roboto Mono', monospace;

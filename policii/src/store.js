@@ -6,13 +6,15 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     heading: '',
-    active: false
+    active: false,
+    cut: ''
   },
   mutations: {
     update (state, todo) {
-      state.header = todo.title
+      state.heading = todo.title
       state.active = todo.active
-      console.log(state.header + ', ' + state.active)
+      state.cut = todo.title.split(' ')[0]
+      console.log(state.cut)
     }
   },
   getters: {
@@ -21,6 +23,9 @@ export default new Vuex.Store({
     },
     heading: state => {
       return state.heading
+    },
+    cut: state => {
+      return state.cut
     }
   }
 })

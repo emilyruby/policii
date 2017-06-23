@@ -1,19 +1,19 @@
 <template>
   <div>
-    <brexit v-show="heading === 'brexit'"></brexit>
-    <disabilities v-show="heading === 'disabilities'"></disabilities>
-    <diverse v-show="heading === 'diverse'"></diverse>
-    <economy v-show="heading === 'economy'"></economy>
-    <education v-show="heading === 'education'"></education>
-    <environment v-show="heading === 'environment'"></environment>
-    <foreign v-show="heading === 'foreign'"></foreign>
-    <healthcare v-show="heading === 'healthcare'"></healthcare>
-    <housing v-show="heading === 'housing'"></housing>
-    <industry v-show="heading === 'industry'"></industry>
-    <infrastructure v-show="heading === 'infrastructure'"></infrastructure>
-    <local v-show="heading === 'local'"></local>
-    <security v-show="heading === 'security'"></security>
-    <social v-show="heading === 'social'"></social>
+    <brexit v-show="cut === 'brexit'" :cut="cut"></brexit>
+    <disabilities v-show="cut === 'disabilities'" :cut="cut"></disabilities>
+    <diverse v-show="cut === 'diverse'" :cut="cut"></diverse>
+    <economy v-show="cut === 'economy'" :cut="cut"></economy>
+    <education v-show="cut === 'education'" :cut="cut"></education>
+    <environment v-show="cut === 'environment'" :cut="cut"></environment>
+    <foreign v-show="cut === 'foreign'" :cut="cut"></foreign>
+    <healthcare v-show="cut === 'healthcare'" :cut="cut"></healthcare>
+    <housing v-show="cut === 'housing'" :cut="cut"></housing>
+    <industry v-show="cut === 'industry'" :cut="cut"></industry>
+    <infrastructure v-show="cut === 'infrastructure'" :cut="cut"></infrastructure>
+    <local v-show="cut === 'local'" :cut="cut"></local>
+    <security v-show="cut === 'security'" :cut="cut"></security>
+    <social v-show="cut === 'social'" :cut="cut"></social>
   </div>
 </template>
 
@@ -54,7 +54,7 @@
     },
     computed: {
       ...mapGetters({
-        heading: 'heading'
+        cut: 'cut'
       })
     }
   }
