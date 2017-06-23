@@ -28,20 +28,18 @@
     text-align: center;
     position: relative;
     justify-content: center;
+    flex-direction: column;
   }
 
   .title {
-    display: inline-block;
-    position: absolute;
+    order: 1;
     text-align: center;
     font-size: 25px;
-    padding: 15px;
   }
 
   .emoji {
-    display: inline-block;
-    position: relative;
-    padding-top: 80px;
+    order: 2;
+    padding-top: 10px;
     align-self: center;
     font-size: 90px;
     text-align: center;
