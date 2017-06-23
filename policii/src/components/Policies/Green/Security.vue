@@ -17,13 +17,7 @@
 
 <script>
   export default {
-    name: 'Security',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('green security updated')
-    }
+    name: 'Security'
   }
 </script>
 

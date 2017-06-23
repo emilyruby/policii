@@ -65,10 +65,7 @@
 
 <script>
   export default {
-    name: 'Security',
-    props: [
-      'heading'
-    ]
+    name: 'Security'
   }
 </script>
 

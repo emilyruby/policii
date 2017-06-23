@@ -18,13 +18,7 @@
 
 <script>
   export default {
-    name: 'Local',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('green local updated')
-    }
+    name: 'Local'
   }
 </script>
 

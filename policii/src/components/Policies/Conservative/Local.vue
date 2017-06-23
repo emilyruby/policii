@@ -10,10 +10,7 @@
 
 <script>
   export default {
-    name: 'Local',
-    props: [
-      'heading'
-    ]
+    name: 'Local'
   }
 </script>
 

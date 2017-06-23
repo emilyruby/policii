@@ -16,10 +16,7 @@
 
 <script>
   export default {
-    name: 'Disabilities',
-    props: [
-      'heading'
-    ]
+    name: 'Disabilities'
   }
 </script>
 

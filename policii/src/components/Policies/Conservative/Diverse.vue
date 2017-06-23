@@ -13,10 +13,7 @@
 
 <script>
   export default {
-    name: 'Diverse',
-    props: [
-      'heading'
-    ]
+    name: 'Diverse'
   }
 </script>
 

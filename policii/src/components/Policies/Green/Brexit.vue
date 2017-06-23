@@ -19,13 +19,7 @@
 
 <script>
   export default {
-    name: 'Brexit',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('green brexit updated')
-    }
+    name: 'Brexit'
   }
 </script>
 

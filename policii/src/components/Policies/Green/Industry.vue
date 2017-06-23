@@ -11,13 +11,7 @@
 
 <script>
   export default {
-    name: 'Industry',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('green industry updated')
-    }
+    name: 'Industry'
   }
 </script>
 

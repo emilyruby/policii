@@ -49,13 +49,7 @@
 
 <script>
   export default {
-    name: 'Security',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('ukip security updated')
-    }
+    name: 'Security'
   }
 </script>
 

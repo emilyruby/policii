@@ -60,31 +60,29 @@
 
 <script>
 import Category from '@/components/Category.vue'
+import { mapMutations, mapGetters } from 'vuex'
 
 export default {
   name: 'categories',
   components: {
     Category
   },
-  data: function () {
-    return {
-      active: false,
-      title: ''
-    }
+  computed: {
+    ...mapGetters({
+      heading: 'heading',
+      active: 'active'
+    })
   },
   methods: {
-    activate: function (event) {
-      this.active = !this.active
-      this.title = event.currentTarget.id
-    }
-  },
-  watch: {
-    active: {
-      handler: function () {
-        this.$emit('active', this.title)
-      },
-      deep: true
-    }
+    activate (event) {
+      this.update({
+        title: event.currentTarget.id,
+        active: !this.active
+      })
+    },
+    ...mapMutations([
+      'update'
+    ])
   }
 }
 </script>

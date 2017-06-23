@@ -1,19 +1,19 @@
 <template>
   <div>
-    <brexit :heading="heading" v-show="title === 'brexit'"></brexit>
-    <disabilities :heading="heading" v-show="title === 'disabilities'"></disabilities>
-    <diverse :heading="heading" v-show="title === 'diverse'"></diverse>
-    <economy :heading="heading" v-show="title === 'economy'"></economy>
-    <education :heading="heading" v-show="title === 'education'"></education>
-    <environment :heading="heading" v-show="title === 'environment'"></environment>
-    <foreign :heading="heading" v-show="title === 'foreign'"></foreign>
-    <healthcare :heading="heading" v-show="title === 'healthcare'"></healthcare>
-    <housing :heading="heading" v-show="title === 'housing'"></housing>
-    <industry :heading="heading" v-show="title === 'industry'"></industry>
-    <infrastructure :heading="heading" v-show="title === 'infrastructure'"></infrastructure>
-    <local :heading="heading" v-show="title === 'local'"></local>
-    <security :heading="heading" v-show="title === 'security'"></security>
-    <social :heading="heading" v-show="title === 'social'"></social>
+    <brexit v-show="cut === 'brexit'" :cut="cut"></brexit>
+    <disabilities v-show="cut === 'disabilities'" :cut="cut"></disabilities>
+    <diverse v-show="cut === 'diverse'" :cut="cut"></diverse>
+    <economy v-show="cut === 'economy'" :cut="cut"></economy>
+    <education v-show="cut === 'education'" :cut="cut"></education>
+    <environment v-show="cut === 'environment'" :cut="cut"></environment>
+    <foreign v-show="cut === 'foreign'" :cut="cut"></foreign>
+    <healthcare v-show="cut === 'healthcare'" :cut="cut"></healthcare>
+    <housing v-show="cut === 'housing'" :cut="cut"></housing>
+    <industry v-show="cut === 'industry'" :cut="cut"></industry>
+    <infrastructure v-show="cut === 'infrastructure'" :cut="cut"></infrastructure>
+    <local v-show="cut === 'local'" :cut="cut"></local>
+    <security v-show="cut === 'security'" :cut="cut"></security>
+    <social v-show="cut === 'social'" :cut="cut"></social>
   </div>
 </template>
 
@@ -32,6 +32,7 @@
   import Local from '@/components/Policies/Conservative/Local.vue'
   import Security from '@/components/Policies/Conservative/Security.vue'
   import Social from '@/components/Policies/Conservative/Social.vue'
+  import { mapGetters } from 'vuex'
 
   export default {
     name: 'Conservative',
@@ -51,13 +52,10 @@
       Security,
       Social
     },
-    props: {
-      heading: ''
-    },
     computed: {
-      title: function () {
-        return this.heading.split(' ')[0]
-      }
+      ...mapGetters({
+        cut: 'cut'
+      })
     }
   }
 </script>

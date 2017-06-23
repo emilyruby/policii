@@ -61,13 +61,7 @@
 
 <script>
   export default {
-    name: 'Foreign',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('ukip foreign updated')
-    }
+    name: 'Foreign'
   }
 </script>
 

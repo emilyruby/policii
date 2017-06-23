@@ -1,19 +1,19 @@
 <template>
   <div>
-    <brexit :heading="heading" v-show="title === 'brexit'"></brexit>
-    <disabilities :heading="heading" v-show="title === 'disabilities'"></disabilities>
-    <diverse :heading="heading" v-show="title === 'diverse'"></diverse>
-    <economy :heading="heading" v-show="title === 'economy'"></economy>
-    <education :heading="heading" v-show="title === 'education'"></education>
-    <environment :heading="heading" v-show="title === 'environment'"></environment>
-    <foreign :heading="heading" v-show="title === 'foreign'"></foreign>
-    <healthcare :heading="heading" v-show="title === 'healthcare'"></healthcare>
-    <housing :heading="heading" v-show="title === 'housing'"></housing>
-    <industry :heading="heading" v-show="title === 'industry'"></industry>
-    <infrastructure :heading="heading" v-show="title === 'infrastructure'"></infrastructure>
-    <local :heading="heading" v-show="title === 'local'"></local>
-    <security :heading="heading" v-show="title === 'security'"></security>
-    <social :heading="heading" v-show="title === 'social'"></social>
+    <brexit v-show="heading === 'brexit'" :heading="heading"></brexit>
+    <disabilities v-show="heading === 'disabilities'" :heading="heading"></disabilities>
+    <diverse v-show="heading === 'diverse'" :heading="heading"></diverse>
+    <economy v-show="heading === 'economy'" :heading="heading"></economy>
+    <education v-show="heading === 'education'" :heading="heading"></education>
+    <environment v-show="heading === 'environment'" :heading="heading"></environment>
+    <foreign v-show="heading === 'foreign'" :heading="heading"></foreign>
+    <healthcare v-show="heading === 'healthcare'" :heading="heading"></healthcare>
+    <housing v-show="heading === 'housing'" :heading="heading"></housing>
+    <industry v-show="heading === 'industry'" :heading="heading"></industry>
+    <infrastructure v-show="heading === 'infrastructure'" :heading="heading"></infrastructure>
+    <local v-show="heading === 'local'" :heading="heading"></local>
+    <security v-show="heading === 'security'" :heading="heading"></security>
+    <social v-show="heading === 'social'" :heading="heading"></social>
   </div>
 </template>
 
@@ -32,6 +32,7 @@
   import Local from '@/components/Policies/Labour/Local.vue'
   import Security from '@/components/Policies/Labour/Security.vue'
   import Social from '@/components/Policies/Labour/Social.vue'
+  import { mapGetters } from 'vuex'
 
   export default {
     name: 'Labour',
@@ -51,13 +52,10 @@
       Security,
       Social
     },
-    props: {
-      heading: ''
-    },
     computed: {
-      title: function () {
-        return this.heading.split(' ')[0]
-      }
+      ...mapGetters({
+        heading: 'heading'
+      })
     }
   }
 </script>

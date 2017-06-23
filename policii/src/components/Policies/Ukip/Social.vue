@@ -44,13 +44,7 @@
 
 <script>
   export default {
-    name: 'Social',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('ukip social updated')
-    }
+    name: 'Social'
   }
 </script>
 

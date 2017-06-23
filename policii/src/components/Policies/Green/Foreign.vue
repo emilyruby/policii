@@ -12,13 +12,7 @@
 
 <script>
   export default {
-    name: 'Foreign',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('green foreign updated')
-    }
+    name: 'Foreign'
   }
 </script>
 

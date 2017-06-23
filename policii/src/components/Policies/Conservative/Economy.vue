@@ -59,10 +59,7 @@
 
 <script>
   export default {
-    name: 'Economy',
-    props: [
-      'heading'
-    ]
+    name: 'Economy'
   }
 </script>
 

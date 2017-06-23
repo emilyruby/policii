@@ -41,13 +41,7 @@
 
 <script>
   export default {
-    name: 'Brexit',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('conservative brexit updated')
-    }
+    name: 'Brexit'
   }
 </script>
 

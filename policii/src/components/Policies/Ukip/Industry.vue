@@ -27,13 +27,7 @@
 
 <script>
   export default {
-    name: 'Industry',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('ukip industry updated')
-    }
+    name: 'Industry'
   }
 </script>
 

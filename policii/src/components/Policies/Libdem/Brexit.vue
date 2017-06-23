@@ -44,13 +44,7 @@
 
 <script>
   export default {
-    name: 'Disabilities',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('labour disabilities updated')
-    }
+    name: 'Brexit'
   }
 </script>
 

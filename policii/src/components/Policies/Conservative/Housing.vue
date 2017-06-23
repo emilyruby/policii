@@ -31,10 +31,7 @@
 
 <script>
   export default {
-    name: 'Housing',
-    props: [
-      'heading'
-    ]
+    name: 'Housing'
   }
 </script>
 

@@ -35,10 +35,7 @@
 
 <script>
   export default {
-    name: 'Infrastructure',
-    props: [
-      'heading'
-    ]
+    name: 'Infrastructure'
   }
 </script>
 

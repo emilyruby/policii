@@ -27,13 +27,7 @@
 
 <script>
   export default {
-    name: 'Infrastructure',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('ukip infrastructure updated')
-    }
+    name: 'Infrastructure'
   }
 </script>
 

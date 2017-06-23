@@ -13,13 +13,7 @@
 
 <script>
   export default {
-    name: 'Diverse',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('green diverse updated')
-    }
+    name: 'Diverse'
   }
 </script>
 

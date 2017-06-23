@@ -16,10 +16,7 @@
 
 <script>
   export default {
-    name: 'Foreign',
-    props: [
-      'heading'
-    ]
+    name: 'Foreign'
   }
 </script>
 

@@ -89,13 +89,7 @@
 
 <script>
   export default {
-    name: 'Environment',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('green environment updated')
-    }
+    name: 'Environment'
   }
 </script>
 

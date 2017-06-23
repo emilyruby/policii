@@ -26,13 +26,7 @@
 
 <script>
   export default {
-    name: 'Diverse',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('labour diverse updated')
-    }
+    name: 'Diverse'
   }
 </script>
 

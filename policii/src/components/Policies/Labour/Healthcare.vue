@@ -11,13 +11,7 @@
 
 <script>
   export default {
-    name: 'Healthcare',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('green healthcare updated')
-    }
+    name: 'Healthcare'
   }
 </script>
 

@@ -43,10 +43,7 @@
 
 <script>
   export default {
-    name: 'Industry',
-    props: [
-      'heading'
-    ]
+    name: 'Industry'
   }
 </script>
 
