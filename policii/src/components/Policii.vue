@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1 id="title">{{ msg }}</h1>
-    <policies :activated="active" :heading="title"></policies>
+    <h1 id="title">policii</h1>
+    <policies :activated="active" :heading="heading"></policies>
     <categories v-on:active="activate($event)"></categories>
   </div>
 </template>
@@ -9,7 +9,7 @@
 <script>
 import Categories from '@/components/Categories.vue'
 import Policies from '@/components/Policies.vue'
-import { mapState } from 'vuex'
+import { mapMutations, mapGetters } from 'vuex'
 
 export default {
   name: 'policii',
@@ -18,19 +18,21 @@ export default {
     Policies
   },
   computed: {
-    heading: state => state.heading,
-    active: state => state.active
+    ...mapGetters({
+      heading: 'heading',
+      active: 'active'
+    })
   },
   methods: {
     activate (event) {
       this.update({
         title: event.currentTarget.id,
-        active: !active,
+        active: !this.active
       })
     },
     ...mapMutations([
-      'update',
-    ]),
+      'update'
+    ])
   }
 }
 </script>

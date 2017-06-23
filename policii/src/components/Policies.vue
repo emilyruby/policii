@@ -1,5 +1,5 @@
 <template>
-  <div v-show="activated === true">
+  <div v-show="active === true">
     <h1 id="title">{{heading}}</h1>
     <div class="container">
       <div class="item conservative">
@@ -14,14 +14,14 @@
       <div class="item green">
         <p class="party" id="gre">green</p>
       </div>
-      <!--<div class="item ukip">-->
-        <!--<p class="party" id="uk">ukip</p>-->
-      <!--</div>-->
+      <div class="item ukip">
+        <p class="party" id="uk">ukip</p>
+      </div>
       <conservative id="conservative" :heading="heading"></conservative>
       <libdem id="libdem" :heading="heading"></libdem>
       <labour id="labour" :heading="heading"></labour>
       <green id="green" :heading="heading"></green>
-      <!--<ukip id="ukip" :heading="heading"></ukip>-->
+      <ukip id="ukip" :heading="heading"></ukip>
     </div>
   </div>
 </template>
@@ -32,6 +32,7 @@
   import Labour from '@/components/Parties/Labour.vue'
   import Green from '@/components/Parties/Green.vue'
   import Ukip from '@/components/Parties/Ukip.vue'
+  import { mapGetters } from 'vuex'
 
   export default {
     name: 'Policies',
@@ -42,9 +43,11 @@
       Green,
       Ukip
     },
-    props: {
-      heading: '',
-      activated: ''
+    computed: {
+      ...mapGetters({
+        heading: 'heading',
+        active: 'active'
+      })
     }
   }
 </script>

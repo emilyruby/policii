@@ -3,7 +3,7 @@ import Vue from 'vue'
 
 Vue.use(Vuex)
 
-const store = new Vuex.Store({
+export default new Vuex.Store({
   state: {
     heading: '',
     active: false
@@ -12,6 +12,14 @@ const store = new Vuex.Store({
     update (state, todo) {
       state.header = todo.title
       state.active = todo.active
+    }
+  },
+  getters: {
+    active: state => {
+      return state.active
+    },
+    heading: state => {
+      return state.heading
     }
   }
 })
