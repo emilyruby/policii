@@ -1,19 +1,19 @@
 <template>
   <div>
-    <brexit :heading="heading" v-show="title === 'brexit'"></brexit>
-    <disabilities :heading="heading" v-show="title === 'disabilities'"></disabilities>
-    <diverse :heading="heading" v-show="title === 'diverse'"></diverse>
-    <economy :heading="heading" v-show="title === 'economy'"></economy>
-    <education :heading="heading" v-show="title === 'education'"></education>
-    <environment :heading="heading" v-show="title === 'environment'"></environment>
-    <foreign :heading="heading" v-show="title === 'foreign'"></foreign>
-    <healthcare :heading="heading" v-show="title === 'healthcare'"></healthcare>
-    <housing :heading="heading" v-show="title === 'housing'"></housing>
-    <industry :heading="heading" v-show="title === 'industry'"></industry>
-    <infrastructure :heading="heading" v-show="title === 'infrastructure'"></infrastructure>
-    <local :heading="heading" v-show="title === 'local'"></local>
-    <security :heading="heading" v-show="title === 'security'"></security>
-    <social :heading="heading" v-show="title === 'social'"></social>
+    <brexit v-show="heading === 'brexit'"></brexit>
+    <disabilities v-show="heading === 'disabilities'"></disabilities>
+    <diverse v-show="heading === 'diverse'"></diverse>
+    <economy v-show="heading === 'economy'"></economy>
+    <education v-show="heading === 'education'"></education>
+    <environment v-show="heading === 'environment'"></environment>
+    <foreign v-show="heading === 'foreign'"></foreign>
+    <healthcare v-show="heading === 'healthcare'"></healthcare>
+    <housing v-show="heading === 'housing'"></housing>
+    <industry v-show="heading === 'industry'"></industry>
+    <infrastructure v-show="heading === 'infrastructure'"></infrastructure>
+    <local v-show="heading === 'local'"></local>
+    <security v-show="heading === 'security'"></security>
+    <social v-show="heading === 'social'"></social>
   </div>
 </template>
 
