@@ -55,13 +55,7 @@
 
 <script>
   export default {
-    name: 'Education',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('green education updated')
-    }
+    name: 'Education'
   }
 </script>
 

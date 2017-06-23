@@ -26,10 +26,7 @@
 
 <script>
   export default {
-    name: 'Social',
-    props: [
-      'heading'
-    ]
+    name: 'Social'
   }
 </script>
 

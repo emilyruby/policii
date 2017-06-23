@@ -55,10 +55,7 @@
 
 <script>
   export default {
-    name: 'Healthcare',
-    props: [
-      'heading'
-    ]
+    name: 'Healthcare'
   }
 </script>
 

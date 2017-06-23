@@ -31,13 +31,7 @@
 
 <script>
   export default {
-    name: 'Economy',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('green economy updated')
-    }
+    name: 'Economy'
   }
 </script>
 

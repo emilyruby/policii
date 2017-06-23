@@ -37,10 +37,7 @@
 
 <script>
   export default {
-    name: 'Environment',
-    props: [
-      'heading'
-    ]
+    name: 'Environment'
   }
 </script>
 

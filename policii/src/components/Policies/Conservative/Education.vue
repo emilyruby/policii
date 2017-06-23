@@ -81,10 +81,7 @@
 
 <script>
   export default {
-    name: 'Education',
-    props: [
-      'heading'
-    ]
+    name: 'Education'
   }
 </script>
 

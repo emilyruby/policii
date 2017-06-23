@@ -15,13 +15,7 @@
 
 <script>
   export default {
-    name: 'Disabilities',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('green disabilities updated')
-    }
+    name: 'Disabilities'
   }
 </script>
 

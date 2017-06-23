@@ -35,13 +35,7 @@
 
 <script>
   export default {
-    name: 'Housing',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('green housing updated')
-    }
+    name: 'Housing'
   }
 </script>
 
