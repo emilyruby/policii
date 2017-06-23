@@ -52,7 +52,7 @@
 <style scoped>
   .container {
     display: grid;
-    grid-template-columns: repeat(5, 20%);
+    grid-template-columns: repeat(5, 18%);
     grid-template-rows: 25% auto auto;
     justify-items: center;
     width: 100vw;

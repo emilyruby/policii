@@ -23,7 +23,7 @@
   .item {
     display: flex;
     width: 250px;
-    height: auto;
+    height: 280px;
     flex-basis: auto;
     text-align: center;
     position: relative;
