@@ -9,13 +9,7 @@
 
 <script>
   export default {
-    name: 'Local',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('ukip local updated')
-    }
+    name: 'Local'
   }
 </script>
 

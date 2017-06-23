@@ -22,13 +22,7 @@
 
 <script>
   export default {
-    name: 'Housing',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('ukip housing updated')
-    }
+    name: 'Housing'
   }
 </script>
 

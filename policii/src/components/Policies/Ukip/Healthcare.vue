@@ -52,13 +52,7 @@
 
 <script>
   export default {
-    name: 'Healthcare',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('ukip healthcare updated')
-    }
+    name: 'Healthcare'
   }
 </script>
 

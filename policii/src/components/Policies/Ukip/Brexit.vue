@@ -36,13 +36,7 @@
 
 <script>
   export default {
-    name: 'Brexit',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('ukip disabilities updated')
-    }
+    name: 'Brexit'
   }
 </script>
 

@@ -36,13 +36,7 @@
 
 <script>
   export default {
-    name: 'Environment',
-    props: [
-      'heading'
-    ],
-    updated: function () {
-      console.log('ukip environment updated')
-    }
+    name: 'Environment'
   }
 </script>
 
