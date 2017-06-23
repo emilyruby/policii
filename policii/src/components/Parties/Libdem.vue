@@ -32,6 +32,7 @@
   import Local from '@/components/Policies/Libdem/Local.vue'
   import Security from '@/components/Policies/Libdem/Security.vue'
   import Social from '@/components/Policies/Libdem/Social.vue'
+  import { mapGetters } from 'vuex'
 
   export default {
     name: 'Libdem',
@@ -51,13 +52,10 @@
       Security,
       Social
     },
-    props: {
-      heading: ''
-    },
     computed: {
-      title: function () {
-        return this.heading.split(' ')[0]
-      }
+      ...mapGetters({
+        heading: 'heading'
+      })
     }
   }
 </script>
