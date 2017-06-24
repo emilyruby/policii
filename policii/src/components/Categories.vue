@@ -77,17 +77,14 @@ export default {
     activate (event) {
       if (event.currentTarget.id === this.heading) {
         this.turn(!this.active)
-        console.log('turned')
       } else {
         if (this.active === false) {
           this.update({
             title: event.currentTarget.id,
             active: !this.active
           })
-          console.log('updated')
         } else {
           this.switch(event.currentTarget.id)
-          console.log('switched')
         }
       }
     },
