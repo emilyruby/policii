@@ -75,13 +75,23 @@ export default {
   },
   methods: {
     activate (event) {
-      this.update({
-        title: event.currentTarget.id,
-        active: !this.active
-      })
+      if (event.currentTarget.id === this.heading) {
+        this.turn(!this.active)
+      } else {
+        if (this.active === false) {
+          this.update({
+            title: event.currentTarget.id,
+            active: !this.active
+          })
+        } else {
+          this.switch(event.currentTarget.id)
+        }
+      }
     },
     ...mapMutations([
-      'update'
+      'update',
+      'switch',
+      'turn'
     ])
   }
 }

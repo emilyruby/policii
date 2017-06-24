@@ -14,7 +14,14 @@ export default new Vuex.Store({
       state.heading = todo.title
       state.active = todo.active
       state.cut = todo.title.split(' ')[0]
-      console.log(state.cut)
+      console.log(state.heading + ', ' + state.active + ', ' + state.cut)
+    },
+    turn (state, active) {
+      state.active = active
+    },
+    switch (state, header) {
+      state.heading = header
+      state.cut = header.split(' ')[0]
     }
   },
   getters: {
