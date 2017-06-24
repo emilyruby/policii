@@ -1,49 +1,49 @@
 <template>
   <div class="navbar" id="nav">
-    <div class="item" id="environment">
-      <a href="#news">🌳</a>
+    <div class="item" id="environment" v-on:click="activate($event)">
+      🌳
     </div>
-    <div class="item" id="healthcare">
-      <a href="#news">🏥</a>
+    <div class="item" id="healthcare" v-on:click="activate($event)">
+      🏥
     </div>
-    <div class="item" id="education">
-      <a href="#news">📚</a>
+    <div class="item" id="education" v-on:click="activate($event)">
+      📚
     </div>
-    <div class="item" id="security">
-      <a href="#news">🏰</a>
+    <div class="item" id="security" v-on:click="activate($event)">
+      🏰
     </div>
-    <div class="item" id="brexit">
-      <a href="#news">🇪🇺</a>
+    <div class="item" id="brexit" v-on:click="activate($event)">
+      🇪🇺
     </div>
-    <div class="item" id="economy">
-      <a href="#news">💰</a>
+    <div class="item" id="economy" v-on:click="activate($event)">
+      💰
     </div>
-    <div class="item" id="social">
-      <a href="#news">🎗️</a>
+    <div class="item" id="social" v-on:click="activate($event)">
+      🎗️
     </div>
-    <div class="item" id="home">
-      <a href="#news">policii️</a>
+    <div class="item" id="home" v-on:click="activate($event)">
+      policii️
     </div>
-    <div class="item" id="local">
-      <a href="#news">🏙</a>
+    <div class="item" id="local" v-on:click="activate($event)">
+      🏙
     </div>
-    <div class="item" id="infrastructure">
-      <a href="#news">🚂</a>
+    <div class="item" id="infrastructure" v-on:click="activate($event)">
+      🚂
     </div>
-    <div class="item" id="industry">
-      <a href="#news">🏭</a>
+    <div class="item" id="industry" v-on:click="activate($event)">
+      🏭
     </div>
-    <div class="item" id="housing">
-      <a href="#news">🏡</a>
+    <div class="item" id="housing" v-on:click="activate($event)">
+      🏡
     </div>
-    <div class="item" id="diverse">
-      <a href="#news">🌈</a>
+    <div class="item" id="diverse" v-on:click="activate($event)">
+      🌈
     </div>
-    <div class="item" id="disabilities" v-on:click="">
-      <a href="#news">♿</a>
+    <div class="item" id="disabilities" v-on:click="" v-on:click="activate($event)">
+      ♿
     </div>
-    <div class="item" id="foreign">
-      <a href="#news">🌍</a>
+    <div class="item" id="foreign" v-on:click="activate($event)">
+      🌍
     </div>
     <div class="burger" id="menu">
       <div class="content">
@@ -76,9 +76,7 @@
     methods: {
       activate (event) {
         if (event.currentTarget.id === this.heading) {
-          this.turn({
-            active: !this.active
-          })
+          this.turn(!this.active)
           console.log('turned')
         } else {
           if (this.active === false) {
