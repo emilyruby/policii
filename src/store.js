@@ -7,7 +7,8 @@ export default new Vuex.Store({
   state: {
     heading: '',
     active: false,
-    cut: ''
+    cut: '',
+    toggle: false
   },
   mutations: {
     update (state, todo) {
@@ -22,6 +23,9 @@ export default new Vuex.Store({
     switch (state, header) {
       state.heading = header
       state.cut = header.split(' ')[0]
+    },
+    togglecontent (state) {
+      state.toggle = !state.toggle
     }
   },
   getters: {
@@ -33,6 +37,9 @@ export default new Vuex.Store({
     },
     cut: state => {
       return state.cut
+    },
+    toggle: state => {
+      return state.toggle
     }
   }
 })

@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <navbar></navbar>
+    <contents></contents>
     <policii id="policii"></policii>
   </div>
 </template>
@@ -8,12 +9,14 @@
 <script>
 import Policii from './components/Policii.vue'
 import Navbar from './components/Navbar.vue'
+import Contents from './components/Contents.vue'
 
 export default {
   name: 'app',
   components: {
     Policii,
-    Navbar
+    Navbar,
+    Contents
   }
 }
 </script>

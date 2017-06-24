@@ -39,19 +39,14 @@
     <div class="item" id="diverse" v-on:click="activate($event)">
       🌈
     </div>
-    <div class="item" id="disabilities" v-on:click="" v-on:click="activate($event)">
+    <div class="item" id="disabilities" v-on:click="activate($event)">
       ♿
     </div>
     <div class="item" id="foreign" v-on:click="activate($event)">
       🌍
     </div>
-    <div class="burger" id="menu">
-      <div class="content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-      <a href="javascript:void(0);" class="icon" onclick="responsive()">&#9776;</a>
+    <div class="burger" id="menu" v-on:click="toggler($event)">
+      <a class="icon">&#9776;</a>
     </div>
   </div>
 </template>
@@ -70,31 +65,34 @@
     computed: {
       ...mapGetters({
         heading: 'heading',
-        active: 'active'
+        active: 'active',
+        toggle: 'toggle'
       })
     },
     methods: {
       activate (event) {
         if (event.currentTarget.id === this.heading) {
           this.turn(!this.active)
-          console.log('turned')
         } else {
           if (this.active === false) {
             this.update({
               title: event.currentTarget.id,
               active: !this.active
             })
-            console.log('updated')
           } else {
             this.switch(event.currentTarget.id)
-            console.log('switched')
           }
         }
+      },
+      toggler (event) {
+        this.togglecontent()
+        console.log('clicked on burger')
       },
       ...mapMutations([
         'update',
         'switch',
-        'turn'
+        'turn',
+        'togglecontent'
       ])
     }
   }
@@ -146,12 +144,12 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
-    z-index: 10000;
     font-size: 12px;
   }
 
   .burger:hover .content {
     display: block;
+    z-index: 10000;
   }
 
   .content a:hover {
